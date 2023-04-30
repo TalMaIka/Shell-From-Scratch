@@ -6,8 +6,8 @@ This program is a command-line tool that checks if two files are equal. It takes
 
 * Create two sample files in the current directory with different content. For example, create a file named "file1.txt" with the content "Hello, world!" and another file named "file2.txt" with * * the content "Hello, world?".
 * Open a terminal and navigate to the directory where the files were created.
-* Compile the program by typing "gcc -o filecompare filecompare.c" and press enter.
-* Run the program by typing "./filecompare file1.txt file2.txt" and press enter.
+* make cmp
+* Run the program by typing "./cmp file1.txt file2.txt" and press enter.
 * The output should be "distinct".
 
 ## The program also accepts two optional flags:
@@ -21,6 +21,7 @@ The program is a file copying utility, that allows the user to copy the contents
 
 
 ## How to run a sample:
+* make copy
 * ./copy file1.txt file2.txt
 
 ## The program also accepts two optional flags:
