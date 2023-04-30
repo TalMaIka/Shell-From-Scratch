@@ -58,7 +58,7 @@ To run the program, use the following command:
 
 # stShell
   
-This program is a simple shell that allows users to run basic command-line operations. The shell reads user input, executes the command, and then displays the results. It also allows for output to be redirected to a file using the ">" or ">>" operators, piping abilities and child process terminate when Ctrl+C promted.
+This program is a simple shell that allows users to run basic command-line operations. The shell reads user input, executes the command, and then displays the results. It also allows for output to be redirected to a file using the ">" or ">>" operators, piping abilities "|" and child process terminate when "Ctrl+C" promted.
   
 To run the program, compile it with the following command:
 * make stshell
